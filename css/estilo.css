@@ -1,0 +1,336 @@
+body{
+    background-color: white;
+    margin: 0px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: #848895;
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 500;
+}
+h1{
+    font-weight: bold;
+    font-size: 3.75rem;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 2.5rem;
+
+}
+
+h3{
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+h4{
+    font-size: 1.4rem;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+h5{
+
+    font-size: 0.8rem;
+    font-weight: bold;
+
+}
+
+p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+    color: #9ea8c6;
+    margin: 0;
+}
+
+.container{ 
+
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 5%;
+    margin-left: 5%;}
+
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+#logo{
+    width: 210px;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 1rem 5% 1rem 5%;
+    background-color:rgb(10, 28, 79);
+    position: fixed;
+    z-index: 999;
+
+}
+
+.menulista>ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.menulista>ul li{
+    padding: 0px 15px;
+}
+
+.menulista>ul>li a{
+
+    text-decoration: none;
+    font-size: 18px;
+    color: #9ea8c6;
+    font-weight: 500;
+}
+
+.menulista>ul>li a:hover{
+    color: white;
+}
+
+.banner{
+    padding: 200px 0px 50px 0px;
+    background-image: url(../imagens/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title{
+    padding: 120px 0px 50px 0px;
+    background-image: url(../imagens/titlepage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box{
+    width: 400px;
+    background-color: rgba(10, 28, 79, 0.8);
+    border: 1px solid white;
+    margin: 0 auto;
+    padding: 10px 16px;
+  
+}
+
+.titulo{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid white;
+    border-width: 90%;
+
+}
+
+.titulo2{
+    text-align: center;
+    color: white;
+}
+.subtitulo{
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    line-height: 26px;
+}
+
+.boxsetabanner{
+    padding-top: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.setabanner{
+    width: 45px;
+
+}
+.tituloprincipal{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-size: 35px;
+    color: #0a1c4f;
+    text-align: center;
+    
+}
+
+
+#noticia{
+    padding: 0px 0px;
+}
+
+.noticias{
+    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 2rem;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+ 
+
+}
+
+.titulocard{
+    width: 100%;
+    line-height: 23px;
+    padding: 10px 10px;
+    text-align: center;
+    color: white;
+    background-color: rgba(10, 28, 79, 0.8);
+}
+
+.noticias a{
+    text-decoration: none;
+}
+
+.audiocarbottom{
+    display: flex;
+    
+    
+
+}
+.audio {
+    margin: 0 auto;
+    margin-top: 150px;
+    
+  }
+
+
+ .carbottom{
+     width: 50%;
+     color:white;
+     text-align: center;
+     justify-content: center;
+     padding: 9px 0px;
+     margin: 0 auto;;
+    margin-top: 155px;
+    background-color: #0a1c4f;
+    border-radius: 50px;
+ } 
+
+
+footer{
+    width: 100%;
+    background-image: url(../imagens/fundo-tech.png);
+    background-size: 100%;
+    background-color: #0a1c4f;
+}
+.conteudo{ 
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+    padding-bottom: 35px;
+    column-gap: 20px;
+    padding-top: 55px;
+}
+
+.gridsaibamais{
+
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+    padding-bottom: 35px;
+    column-gap: 20px;
+    padding-top: 55px;
+
+}
+
+.listasaibamais{
+    list-style-image: url("../imagens/setasaiba.png");
+    
+}
+
+.listasaibamais li a {
+    text-decoration: none;
+    color:gray;
+}
+.listasaibamais li a:hover {
+    text-decoration: none;
+    color:#0a1c4f;
+}
+
+
+
+.colunasfooter{
+    display: grid;
+    grid-template-columns: 4fr 2fr 6fr;
+    
+    padding-bottom: 35px;
+    padding-top: 55px;
+}
+
+.col{
+    width: 100%;
+    padding-right: 32px;
+
+}
+
+.col>h4{
+    margin-top: 0rem; 
+    color:white;
+}
+
+.col>p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 34px;
+    color: #9ea8c6;
+    margin-top: 20px;
+}
+
+.linkfooter{
+
+    padding-left: 0px;
+
+}
+
+.linkfooter>li{
+    list-style: none;
+    text-decoration: none !important;
+}
+
+.linkfooter>li a{
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none !important;
+    color:#9ea8c6;
+}
+
+.linkfooter>li a:hover{
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none !important;
+    color:white;
+}
+
+#logofooter{
+    width: 100px;
+}
+
+.copyright{
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+
+}
+.copyright>p{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
